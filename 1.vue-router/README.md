@@ -142,7 +142,7 @@ Vue.component('router-view', {
 
 ### initEvent
 
-监听浏览器地址，当其发生变化时，更改渲染组件。
+监听浏览器地址，当其发生变化时，更改渲染组件。（处理浏览器前进后退）
 
 ```js
 export default class VueRouter {
